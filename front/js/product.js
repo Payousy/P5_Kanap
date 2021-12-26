@@ -65,7 +65,8 @@ function addToCart(article) {
     if (
       numberChoise.value > 0 &&
       numberChoise.value <= 100 &&
-      numberChoise.value != 0
+      numberChoise.value != 0 &&
+      colorChoice.value != ""
     ) {
       //Couleur choisie
       let colorBuy = colorChoice.value;
@@ -131,3 +132,10 @@ function addToCart(article) {
     }
   });
 }
+/*const colorNone = () => {
+  btn_ajoutPanier = document.getElementById("addToCart");
+  btn_ajoutPanier.addEventListener("click", (Event) => {
+    if (numberChoise.value <= 0 || colorChoice.value === 0)
+      window.alert("Selection color");
+  });
+};*/
