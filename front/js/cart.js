@@ -346,11 +346,7 @@ document.getElementById("email").value = dataLocalStorageObject.email;*/
 
   //Mettre les produits sélectionnés et les values du formulaire dans un objet à envoyer vers le server
 
-  const infosEnvoyer = {
-    productLocalStorage,
-    formulaireValue,
-  };
-});*/
+*/
 /*-----------------------------New code panier------------------*/
 
 // Initialisation du local storage
@@ -489,7 +485,7 @@ deleteProduct();
 
 // gestion du formulaire de commande
 
-const afficheForm = () => {
+/*const afficheForm = () => {
   const structureForm = `<div class="cart__order">
   <form method="get" class="cart__order__form">
     <div class="cart__order__form__question">
@@ -524,7 +520,7 @@ const afficheForm = () => {
     </div>
   </form>
 </div>`;
-};
+};*/
 /*----------Gestion de la validation du formulaire grace au regex------------*/
 let isFirstNameValid = false;
 let isLastNameValid = false;
