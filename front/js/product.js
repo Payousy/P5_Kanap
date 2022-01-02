@@ -67,8 +67,6 @@ function addToCart(article) {
       numberChoise.value > 0 &&
       numberChoise.value <= 100 &&
       numberChoise.value != 0
-      //&&
-      //colorChoice.value != ""
     ) {
       //Couleur choisie
       let colorBuy = colorChoice.value;
